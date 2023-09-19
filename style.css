@@ -1,0 +1,89 @@
+.heroimg {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+ }
+
+ .logo {
+   display: block;
+   margin-right: auto;
+   width: 40%;
+   height: auto;
+ }
+
+ 
+ .skill1{
+  display: flex;
+  height: 650px;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.col0 h2{
+
+  font-family: 'Work Sans';
+  width: fit-content;
+  font-size: 35px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.col0{
+  width: 430px;
+  margin-right: 50px;
+}
+p{
+  font-family: 'Work Sans';
+}
+
+.col .card p{
+  font-family: 'Work Sans';
+  color: white;
+}
+.col{
+  flex-basis: 50%;
+}
+.col h4{
+  font-family: 'Work Sans';
+  text-align: left;
+  color: white;
+  margin-top: 190px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card1{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://suntrics.com/wp-content/uploads/2023/09/React-Development-Best-Practices.jpg');
+}
+
+.card2{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/design/dopera.JPG');
+  
+}
+
+.card3{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/design/yeahpaleya.JPG');
+  
+}
+
+.card4{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/design/sdgsdgs-01-min.jpg');
+  
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
